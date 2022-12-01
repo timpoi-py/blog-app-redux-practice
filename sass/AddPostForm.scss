@@ -1,0 +1,43 @@
+.add-post-form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    label {
+      align-self: flex-start;
+      margin-top: 0.5em;
+    }
+
+    button {
+      align-self: flex-start;
+      margin-top: 0.5em;
+      padding: 0.3em 1.2em;
+      border: none;
+      background-color: firebrick;
+      color: #ffffff;
+      font-weight: 900;
+      cursor: pointer;
+    }
+
+    button:hover {
+      filter: brightness(1.2);
+    }
+
+    input {
+      width: min(600px, 95vw);
+    }
+
+    .post-content {
+      width: min(600px, 95vw);
+      height: 100px;
+      resize: none;
+    }
+  }
+}
