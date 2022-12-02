@@ -82,10 +82,27 @@ select {
   align-items: center;
 }
 .posts-list .posts-item {
+  display: grid;
   width: min(600px, 100vw);
   background-color: #f2f2f2;
   box-shadow: 0 0 5px 0 rgba(23, 23, 23, 0.2);
   border-radius: 10px;
   padding: 2em;
   text-align: left;
+}
+.posts-list .posts-item .post-author {
+  font-size: 0.8em;
+  font-style: italic;
+  margin-top: 0.5em;
+}
+.posts-list .posts-item .reaction-btns {
+  margin-top: 0.5em;
+  display: flex;
+  gap: 0.5em;
+}
+.posts-list .posts-item .reaction-btns button {
+  border: none;
+  cursor: pointer;
+  -webkit-padding-start: 0;
+          padding-inline-start: 0;
 }/*# sourceMappingURL=PostsList.css.map */
